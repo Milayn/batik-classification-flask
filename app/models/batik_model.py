@@ -2,7 +2,11 @@ import pandas as pd
 from tensorflow.keras.models import load_model
 
 # Define paths for model and class names
-MODEL_PATH = "resnet152.h5"
+# MODEL_PATH = "resnet152.h5"
+
+# kalau menggunakan model resnet dengan augmentasi rotasi dan zoom
+MODEL_PATH = "[withAugmentasiZoom_rotasi45_135]Resnet152.h5"
+
 CLASS_NAMES_PATH = "app/data/class_names.csv"
 CLASS_DESCRIPTIONS_PATH = "app/data/class_deskripsi.csv"
 
